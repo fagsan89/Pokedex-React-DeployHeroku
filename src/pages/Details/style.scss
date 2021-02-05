@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+.containerD{
+    margin-top: 20px;
+    max-height: 1000px;
+    overflow: hidden;
+}
+.grid-containerD{
+   width: 300px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+

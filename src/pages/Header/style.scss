@@ -1,0 +1,18 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width:100%;
+    padding: 20px;
+    background: #574c4c;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    img {
+        margin: 5px;
+        width: 55px;
+        cursor: pointer;
+    }
+}
+

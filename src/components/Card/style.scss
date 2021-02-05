@@ -1,0 +1,29 @@
+p {
+    margin: 0;
+}
+
+.Card {
+    background: rgba(222, 226, 236, 0.959);
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-right: 4px solid rgb(80, 80, 80);
+    border-bottom:4px solid rgb(80, 80, 80);
+    text-decoration: none;
+    color:#262529;
+    cursor: pointer;
+}
+
+.Card__img {
+    text-align: center;
+}
+
+
+.Card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px
+}
+
+

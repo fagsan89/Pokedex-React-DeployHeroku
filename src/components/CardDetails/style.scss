@@ -1,0 +1,54 @@
+
+p {
+    margin: 0;
+}
+
+.CardD {
+    background: rgba(222, 226, 236, 0.959);
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-right: 4px solid rgb(80, 80, 80);
+    border-bottom:4px solid rgb(80, 80, 80);
+    text-decoration: none;
+    color:#262529;
+   
+}
+
+.Card__imgD {
+    text-align: center;
+}
+
+
+.Card__nameD {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px
+}
+
+.Card__typesD {
+    display: flex;
+    justify-content: center;    
+}
+
+.Card__typeD {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+}
+
+
+.Card__infoD {
+    margin-left: 10px;
+}
+
+.Card__dataD {
+    padding-bottom: 10px;
+}
+
+.Card__dataD .titleD {
+    font-weight: 700;
+}
